@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bus', 'Car', 'Motorcycle', 'Pedestrians', 'Pick-up', 'Truck']
+
+roboflow:
+  workspace: newpaper
+  project: my-paper
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/newpaper/my-paper/dataset/1
